@@ -1,7 +1,10 @@
 # compiled output
-/nestjs-demo/dist
-/nestjs-demo/node_modules
-/nestjs-demo/build
+nestjs-demo/dist
+nestjs-demo/node_modules
+nestjs-demo/build
+dist
+build
+node_modules
 
 # Logs
 logs
