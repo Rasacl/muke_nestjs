@@ -1,6 +1,6 @@
 import { Controller, Get, Post } from '@nestjs/common'
 import { UserService } from './user.service'
-import { ConfigService } from '@nestjs/config'
+// import { ConfigService } from '@nestjs/config'
 import { User } from './user.entity'
 // import { ConfigEnum } from '../enum/config.enum'
 @Controller('user')
@@ -24,7 +24,7 @@ export class UserController {
   }
 
   @Get('/logs')
-  getUserLogs(id: number) {
+  getUserLogs() {
     return this.userService.findLogs(1)
   }
 }
